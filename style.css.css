@@ -1,0 +1,112 @@
+body{
+background-color:#e4e4e4;
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+}
+
+
+/* HEADER */
+
+header{
+background-color:white;
+padding:20px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* MENU */
+
+nav{
+background:white;
+padding:10px 20px;
+border-radius:30px;
+width:fit-content;
+margin:auto;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+margin:10px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:gray;
+}
+
+
+/* FOTO */
+
+aside{
+text-align:center;
+margin-top:40px;
+}
+
+aside img{
+    width:150px;
+    border-radius:15px;
+}
+
+
+/* SECTIONS */
+
+section{
+background:white;
+width:60%;
+margin:40px auto;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+text-align:center;
+}
+
+
+/* FOOTER */
+
+footer{
+background-color:white;
+padding:15px;
+border-radius:50px;
+width:fit-content;
+margin:40px auto;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ICONES */
+
+#contato img{
+width:40px;
+margin:10px;
+transition:0.3s;
+cursor:pointer;
+}
+
+
+/* WhatsApp verde */
+
+.whatsapp:hover{
+filter: brightness(0) saturate(100%) invert(48%) sepia(93%) saturate(749%) hue-rotate(86deg) brightness(96%) contrast(101%);
+transform:scale(1.2);
+}
+
+
+/* Email vermelho */
+
+.email:hover{
+filter: brightness(0) saturate(100%) invert(20%) sepia(96%) saturate(6000%) hue-rotate(350deg) brightness(90%) contrast(120%);
+transform:scale(1.2);
+}
+
+
+/* LinkedIn azul */
+
+.linkedin:hover{
+filter: brightness(0) saturate(100%) invert(29%) sepia(99%) saturate(3000%) hue-rotate(200deg) brightness(95%) contrast(100%);
+transform:scale(1.2);
+}
