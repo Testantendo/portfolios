@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+*{
+    margin: 3;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between; /* separa esquerda e direita */
+    align-items: center; /* alinha no meio */
+    box-sizing: border-box; /* inclui padding e border no tamanho total */
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.mario-gif{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cano-mario{
+    width: 5em;
+    height: 5em;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+   .quiz-container{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* melhor que center aqui */
+}
+
+.quiz-container label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.correct{
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.reiniciar{
+     background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    border-radius: 5px; cursor: 
+    pointer; transition: 0.3s; /* deixa suave */ 
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+
+.correct:hover{
+    background-color: red;
+}
+
+.reiniciar:hover{
+    background-color: blue;
+}
+
+
+
+#resultado{
+    margin: 20px auto; /* centraliza */
+    font-size: 1.5em;
+    color: red;
+    border: 2px solid black;
+    border-radius: 200px;
+    padding: 10px;
+    width: 500px;
+    text-align: center; /* centraliza texto */
+}
+
+
+#imagemResultado{
+    display: block;      /* necessário */
+    margin: 20px auto;   /* centraliza */
+    width: 200px;
+}
+
+
